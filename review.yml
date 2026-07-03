@@ -1,0 +1,92 @@
+aid: frazerconsultants
+name: Frazer Consultants
+review:
+  question: Does Frazer Consultants expose a documented public WebSocket API?
+  answer: false
+  date: '2026-07-03'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was authored. Frazer Consultants publishes no public API
+    of any kind - REST or WebSocket - so there is no server-push transport on a
+    Frazer-owned API surface to model. Frazer references an "open-source API" in
+    marketing copy and Tribute Technology connects Premier Partners through
+    "proprietary APIs," but neither is publicly documented, and no realtime or
+    streaming (ws:// / wss:// / SSE) endpoint is described anywhere.
+findings:
+  summary: |
+    Frazer Consultants does not publish a documented public API. Frazer is a
+    funeral-home technology company (founded in Wisconsin) offering an all-in-one
+    death-care platform: responsive funeral home websites, the FrazerGO funeral
+    home management software, Tribute Pay (payments), the Tribute Store
+    (flowers/gifts/memorial trees), and the Tribute Center (tribute video creation,
+    personalized funeral stationery, and live or delayed webcasting). Frazer is now
+    part of Tribute Technology and its products integrate into the Tribute
+    Technology full-stack platform. Frazer's public integrations page states that
+    "our open-source API lets us integrate with virtually any other software you
+    use," and Tribute Technology's partner page states that "Premier Partners are
+    connected to Tribute Technology Platform Services through proprietary APIs."
+    Both statements describe integration capability, not a self-serve, documented
+    developer API. There is no developer portal, no published API reference, no
+    OpenAPI, no API key signup, and no rate-limit or error documentation available
+    publicly. Access is partner-gated and arranged directly with Frazer / Tribute
+    Technology (partner application, or contact help@frazerconsultants.com /
+    hello@tributetech.com). No WebSocket (ws:// or wss://) endpoint is documented.
+  publicApi: false
+  accessModel: partner-gated
+  parentCompany: Tribute Technology
+  endpointsModeled: none
+  endpointsConfirmedRest: []
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: >
+        Frazer/Tribute Technology use proprietary REST-style APIs internally and
+        for Premier Partners, but no base URL, reference, or OpenAPI is published.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No WebSocket endpoint is documented anywhere as of the review date.
+  pricing: |
+    Pricing is not publicly disclosed. Frazer sells per-funeral-home subscriptions
+    (websites plus FrazerGO management software, with Tribute Pay and Tribute Store
+    built in at no extra cost). Prospects must contact Frazer directly
+    (866-372-9372 / info@frazerconsultants.com) for a quote. No API pricing exists
+    because there is no public API product.
+sources:
+  - url: https://www.frazerconsultants.com/
+    type: Website
+    note: Company homepage - all-in-one funeral-home platform overview.
+  - url: https://web.frazerconsultants.com/integrations/
+    type: Integrations
+    note: >
+      States "our open-source API lets us integrate with virtually any other
+      software you use"; lists data management, call forwarding, and webcasting
+      integrations. No developer docs or portal linked.
+  - url: https://www.frazerconsultants.com/frazergo
+    type: Product
+    note: FrazerGO funeral home management software.
+  - url: https://www.frazerconsultants.com/tribute-center
+    type: Product
+    note: Tribute Center - tribute videos, stationery, and webcasting.
+  - url: https://www.tributetech.com/frazer-consultants
+    type: ParentCompany
+    note: Confirms Frazer Consultants is part of Tribute Technology.
+  - url: https://www.tributetech.com/partners
+    type: PartnerProgram
+    note: >
+      Premier Partners "are connected to Tribute Technology Platform Services
+      through proprietary APIs." Partner-gated, no public developer portal.
+  - url: https://www.linkedin.com/company/frazer-consultants
+    type: LinkedIn
+    note: Company profile.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    Frazer Consultants exposes no documented public API (REST or WebSocket), so no
+    APIs were enumerated and no AsyncAPI, OpenAPI, plans, rate-limits, finops, or
+    collections artifacts were created. The apis.yml documents the company, its
+    products, the Tribute Technology relationship, and the partner-gated access
+    model honestly as a stub, without fabricating endpoints.

@@ -1,0 +1,46 @@
+aid: frazerconsultants
+url: https://raw.githubusercontent.com/api-evangelist/frazerconsultants/refs/heads/main/apis.yml
+name: Frazer Consultants
+kind: company
+description: Frazer Consultants is a funeral-home technology company providing
+  all-in-one death-care software - responsive funeral home websites, the FrazerGO
+  funeral home management system, Tribute Pay payments, the Tribute Store (flowers,
+  gifts, trees), and the Tribute Center (tribute videos, personalized stationery,
+  and live or delayed webcasting). Frazer is now part of Tribute Technology, and its
+  products connect into the Tribute Technology full-stack platform. Frazer markets an
+  "open-source API" that lets its websites integrate with third-party data management,
+  call forwarding, and webcasting software, and Tribute Technology connects Premier
+  Partners to its Platform Services through proprietary APIs. However, as of this
+  writing there is NO public developer portal, no published API reference, and no
+  self-serve OpenAPI - API/integration access is partner-gated and arranged directly
+  with Frazer / Tribute Technology. This entry is therefore an honest stub documenting
+  the access model rather than a documented public API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Funeral Homes
+- Death Care
+- Funeral Home Software
+- Tribute Technology
+- Memorial Websites
+- Obituaries
+- Payments
+- Webcasting
+- Partner API
+- No Public API
+created: '2026-07-03'
+modified: '2026-07-03'
+specificationVersion: '0.19'
+common:
+- type: Website
+  url: https://www.frazerconsultants.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/frazer-consultants
+- type: Integrations
+  url: https://web.frazerconsultants.com/integrations/
+- type: PartnerProgram
+  url: https://www.tributetech.com/partners
+- type: ParentCompany
+  url: https://www.tributetech.com/frazer-consultants
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
