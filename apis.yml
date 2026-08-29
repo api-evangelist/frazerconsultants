@@ -15,6 +15,17 @@ description: Frazer Consultants is a funeral-home technology company providing
   self-serve OpenAPI - API/integration access is partner-gated and arranged directly
   with Frazer / Tribute Technology. This entry is therefore an honest stub documenting
   the access model rather than a documented public API.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
