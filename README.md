@@ -1,4 +1,4 @@
-# Frazer Consultants (frazerconsultants)
+# Frazer Consultants
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,79 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Frazer Consultants is a funeral-home technology company providing an all-in-one
-death-care software platform: responsive funeral home websites, the **FrazerGO**
-funeral home management system, **Tribute Pay** (payments), the **Tribute Store**
-(flowers, gifts, and memorial trees), and the **Tribute Center** (tribute video
-creation, personalized funeral stationery, and live or delayed webcasting). Frazer
-is now **part of Tribute Technology**, and its products connect into the Tribute
-Technology full-stack platform.
+Frazer Consultants is a funeral-home technology company providing all-in-one death-care software - responsive funeral home websites, the FrazerGO funeral home management system, Tribute Pay payments, the Tribute Store (flowers, gifts, trees), and the Tribute Center (tribute videos, personalized stationery, and live or delayed webcasting). Frazer is now part of Tribute Technology, and its products connect into the Tribute Technology full-stack platform. Frazer markets an "open-source API" that lets its websites integrate with third-party data management, call forwarding, and webcasting software, and Tribute Technology connects Premier Partners to its Platform Services through proprietary APIs. However, as of this writing there is NO public developer portal, no published API reference, and no self-serve OpenAPI - API/integration access is partner-gated and arranged directly with Frazer / Tribute Technology. This entry is therefore an honest stub documenting the access model rather than a documented public API.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/frazerconsultants/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/frazerconsultants/refs/heads/main/apis.yml)
+**Areas:** Funeral Homes · Death Care · Funeral Home Software · Tribute Technology · Memorial Websites · Obituaries · Payments · Webcasting · Partner API
 
-## API Access Model — Honest Stub
+## Frazer Consultants on APIs.io
 
-**Frazer Consultants does not publish a documented public API.** This entry is an
-honest stub that documents the access model rather than a public developer API.
+Everything profiled for Frazer Consultants is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/frazerconsultants/](https://apis.io/providers/frazerconsultants/)** — or go straight to one of the APIs or properties below.
 
-- Frazer's integrations page states that *"our open-source API lets us integrate
-  with virtually any other software you use"* and lists integrations with data
-  management, call forwarding, and third-party webcasting software — but this
-  describes an integration capability, not a self-serve documented API.
-- Tribute Technology's partner program states that *"Premier Partners are connected
-  to Tribute Technology Platform Services through proprietary APIs."* Access is
-  **partner-gated**, arranged through the Tribute Technology partner application or
-  by contacting Frazer / Tribute Technology directly.
-- There is **no developer portal, no published API reference, no OpenAPI, no API-key
-  signup, and no public rate-limit or error documentation** as of 2026-07-03.
+### Published properties
 
-Because no public API surface exists, no `openapi/`, `plans/`, `rate-limits/`,
-`finops/`, or `collections/` artifacts were created, and no endpoints were modeled.
-See `review.yml` for the full assessment.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Relationship to Tribute Technology
+#### Security (1)
 
-Frazer Consultants was acquired by / rolled into **Tribute Technology**, which
-operates a full-stack death-care platform and a Premier / Integration partner
-program. Frazer's own products (websites, Tribute Pay, Tribute Store, Tribute
-Center) integrate with each other at no additional cost and plug into Tribute
-Technology Platform Services.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Pricing
+- [Frazerconsultants Domain Security](https://apis.io/security/frazerconsultants/frazerconsultants-domain-security/)
 
-Pricing is **not publicly disclosed**. Frazer sells **per-funeral-home
-subscriptions** — websites plus FrazerGO management software, with Tribute Pay and
-Tribute Store built in at no extra cost. Prospective funeral homes must contact
-Frazer directly (866-372-9372 / info@frazerconsultants.com) for a quote. There is
-no API pricing because there is no public API product.
+## Where to find this API
 
-## Tags
-
-- Funeral Homes
-- Death Care
-- Funeral Home Software
-- Tribute Technology
-- Memorial Websites
-- Obituaries
-- Payments
-- Webcasting
-- Partner API
-- No Public API
-
-## Timestamps
-
-- **Created:** 2026-07-03
-- **Modified:** 2026-07-03
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.frazerconsultants.com)
-- [LinkedIn](https://www.linkedin.com/company/frazer-consultants)
-- [Integrations](https://web.frazerconsultants.com/integrations/)
-- [Partner Program](https://www.tributetech.com/partners)
-- [Parent Company (Tribute Technology)](https://www.tributetech.com/frazer-consultants)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 2.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/frazerconsultants/](https://apis.io/providers/frazerconsultants/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Frazer Consultants: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/frazerconsultants/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
